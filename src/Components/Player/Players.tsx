@@ -41,10 +41,10 @@ function Players() {
     return (
         <div className='PlayerMainContainer' style={{ display: visibility ? 'block' : 'none' }}>
             <div className='PlayerSubContainer'>
-                <form onSubmit={FormSubmit} className='playerForm'>
+                <form autoComplete="off" onSubmit={FormSubmit} className='playerForm'>
                     <div className='playerlabField'>
                         <label>Player 1</label>
-                        <input name="player1" placeholder='Enter name' onChange={onChange} />
+                        <input  name="player1" placeholder='Enter name' onChange={onChange} />
                     </div>
                     <div className='playerlabField'>
                         <label>Player 2</label>

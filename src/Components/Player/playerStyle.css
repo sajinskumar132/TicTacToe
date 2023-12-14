@@ -1,0 +1,66 @@
+.PlayerMainContainer{
+    width: 100vw;
+    height: 100vh;
+}
+.PlayerSubContainer{
+    top: 18%;
+    left: 25%;
+    margin: 3px 3px;
+    padding: 8px;
+    border-radius: 20px;
+    width: 50%;
+    height: 60%;
+    background-color: rgb(255 255 255 / 60%);
+    position: absolute;
+}
+.playerForm{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    border-radius: 25px;
+    padding: 25px;
+    max-width: 40%;
+    max-height: 50%;
+    background-color: white;
+    box-shadow: 0px 0px 18px 1px rgba(191, 191, 192, 0.77);
+}
+.playerlabField{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 10px;
+   margin: 15px 8px;
+}
+.playerlabField label{
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(0, 140, 255);
+}
+.playerlabField input{
+    outline: none;
+    padding: 5px 8px;
+    border: 1px solid silver;
+    border-radius: 20px;
+}
+.formButton{
+    display: flex;
+    justify-content: center;
+}
+.formButton button{
+    cursor: pointer;
+    font-family: 'Silkscreen', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0, 140, 255);
+    font-size: 18px;
+    padding: 8px 10px;
+    min-width: 100px;
+    border: none;
+    border-radius: 20px;
+}
+.validation{
+    text-align: center;
+    color: red;
+    margin-bottom: 10px;
+}

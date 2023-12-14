@@ -82,7 +82,8 @@ const TICTacSlice = createSlice({
                 player1: [],
                 player2: [],
             }
-            UpdatePlayer()
+            state.ResetTimer= false
+            state.IsPlayer1Playing=false
         },
         visibilityResultModal:(state)=>{
             state.ResultModal=!state.ResultModal
